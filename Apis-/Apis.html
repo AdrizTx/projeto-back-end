@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APIs</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="nav">
+            <nav>
+                <a href="/Inicio/Inicio.html" class="Inicio">Inicio</a>
+                <a href="/Back-End/Back.html" class="Back-end">Back-End</a>
+                <a href="/Apis-/Apis.html" class="APIs">APIs</a>
+                <a href="/Tecnologias/Tecnologias.html">Tecnologias</a>
+            </nav>
+        </header>
+
+        <div class="container1">
+            <div class="box"><h1>APIs</h1></div>
+        </div>
+
+        <section>
+            <h2>O que é uma API?</h2>
+            <p>API significa Application Programming Interface (Interface de Programação de Aplicações). Ela é <br>
+                um conjunto de regras que permite que diferentes sistemas e aplicações se comuniquem. Por meio de uma API, <br>
+                o Front-End pode enviar solicitações para o Back-End e receber informações ou pedir que alguma ação seja <br>
+                 realizada.
+            </p>
+        </section>
+
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3">
+            <section>
+                <h2>Para que serve uma API?</h2>
+                <p>Uma API serve para facilitar a comunicação entre diferentes aplicações. Por exemplo, em uma loja virtual, o <br>
+                    Front-End pode utilizar uma API para buscar produtos, cadastrar clientes, realizar pedidos e consultar <br>
+                     informações do banco de dados. Dessa forma, o Front-End não precisa acessar diretamente o banco de <br>
+                     dados.</p>
+
+            </section>
+            <section>
+                <h2>O que é API REST?</h2>
+                <p>Uma API REST é uma API que segue os princípios da arquitetura REST (Representational State Transfer). Ela <br>
+                     utiliza principalmente os métodos HTTP, como GET, POST, PUT, PATCH e DELETE, para realizar operações <br>
+                      sobre recursos. Por exemplo, uma API pode utilizar /produtos para representar os produtos de um sistema.</p>
+
+            </section>
+            <section>
+                <h2>O que são endpoints?</h2>
+                <p>Endpoints são os endereços específicos disponibilizados por uma API para realizar determinadas operações. <br>
+                     Cada endpoint representa um recurso ou uma ação. Por exemplo, em uma API de produtos, podemos ter:</p>
+                    <ul>
+                        <li>GET /produtos - lista os produtos.</li>
+                        <li>GET /produtos/10 - busca o produto de número 10.</li>
+                        <li>POST /produtos - cadastra um novo produto.</li>
+                    </ul>
+            </section>
+            <section>
+                <h2>Como o Front-End utiliza uma API?</h2>
+                <p>O Front-End utiliza uma API enviando requisições HTTP para os endpoints disponíveis. O Back-End recebe a <br>
+                    requisição, realiza o processamento necessário e devolve uma resposta, geralmente em formato JSON. O <br>
+                    Front-End então utiliza essas informações para atualizar e apresentar o conteúdo na tela para o usuário.</p><br>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Método</th>
+                            <th>Função</th>
+                            <th>Exemplo de utilização</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GET</td>
+                            <td>Buscar informações</td>
+                            <td>GET /produtos - para listar produtos</td>
+                        </tr>
+                        <tr>
+                            <td>POST</td>
+                            <td>Criar novos dados</td>
+                            <td>POST /produtos - para cadastrar um produto</td>
+                        </tr>
+                        <tr>
+                            <td>PUT</td>
+                            <td>Substituir/atualizar um recurso completo</td>
+                            <td>PUT /produtos/10 - para atualizar todos os dados do produto 10</td>
+                        </tr>
+                        <tr>
+                            <td>PATCH</td>
+                            <td>Atualizar parcialmente um recurso</td>
+                            <td>PATCH /produtos/10 - para alterar apenas o preço do produto 10</td>
+                        </tr>
+                        <tr>
+                            <td>DELETE</td>
+                            <td>Excluir um recurso</td>
+                            <td>DELETE /produtos/10 - para excluir o produto 10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Exemplos de utilização</h2>
+                <p>GET: É utilizado quando o sistema precisa consultar informações. Por exemplo, ao abrir uma loja virtual, o <br>
+                    Front-End pode enviar GET /produtos para receber a lista de produtos disponíveis.</p>
+
+                <p>POST: É utilizado para criar uma nova informação. Por exemplo, ao preencher um formulário de cadastro, o <br>
+                    Front-End pode enviar POST /usuarios com os dados do novo usuário.</p>
+                
+                <p>PUT: É utilizado para atualizar completamente um recurso existente. Por exemplo, ao editar todos os dados <br>
+                    de um produto, pode ser enviada uma requisição PUT /produtos/10.</p>
+
+                <p>PATCH: É utilizado para alterar apenas uma parte de um recurso. Por exemplo, se for necessário alterar <br>
+                    somente o preço de um produto, pode ser utilizada PATCH /produtos/10.</p>
+
+                <p>DELETE: É utilizado para remover uma informação. Por exemplo, quando um administrador exclui um  <br>
+                     produto, o sistema pode enviar DELETE /produtos/10 para solicitar sua remoção.</p>
+            </section>
+            
+            <footer>
+                © 2026 Adriel Marinho . <strong>Todos os direitos reservados</strong>.
+            </footer>
+        </div>
+    </body>
+</html>

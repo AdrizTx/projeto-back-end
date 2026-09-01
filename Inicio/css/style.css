@@ -1,0 +1,229 @@
+body{
+    background-color: #f1ebeb;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+        
+}
+a{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #24c0eb;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 2.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Inicio{
+    margin-left: 30px;
+    background-color: #186378;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 30px;
+}
+.box{
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(120deg, #186378, #24c0eb);
+    color: white;
+    align-items: center;
+}
+
+.box h1 {
+    margin-left: 30px;
+    font-size: 50px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 0.8;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+    font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 0.8;
+}
+
+.div1{
+    width: px;
+    height: 50px;
+    background-color: #cacaca;
+
+}
+.div2{
+    width: px;
+    height: 50px;
+    background-color: #1f86a2;
+
+}
+.div3{
+    width: px;
+    height: px;
+    padding: 5px;
+    background-color: #186378;
+
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.div3 h2 {
+    color: white;
+}
+.div3 p {
+    color: white;
+}
+
+p{
+     display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+    font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+}
+
+footer{
+     display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      color: white;
+}
+/* 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+ */
